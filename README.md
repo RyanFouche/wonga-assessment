@@ -10,6 +10,7 @@ Install Docker and Docker Compose: https://www.docker.com/products/docker-deskto
 ## Consumer Project
 1. Run the Consumer app by opening a new terminal in the project directory: docker-compose up consumer
 2. Arguments for the RabbitMQ Uri are set under the appsettings.json of the consumer application.
+3. Consumer app Docker Image: https://hub.docker.com/r/ryanfouche/projects
 
 ## Producer Project
 1. Run the Producer application locally and send messages to the queue.
