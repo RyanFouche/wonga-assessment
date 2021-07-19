@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using RabbitMQ.Client;
 using System;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace Consumer
 {
@@ -29,11 +30,14 @@ namespace Consumer
             .BuildServiceProvider();
             while (true)
             {
-
                 serviceProvider.GetService<RabbitMQ.Interfaces.IConsumer>().Consume("message", message =>
                 {
-                    message = message.Substring(message.LastIndexOf(',') + 1).Trim();
-                    Console.WriteLine($"Hello {message}, I am your father!");
+                    Task.Factory.StartNew(() =>
+                    {
+                        message = message.Substring(message.LastIndexOf(',') + 1).Trim();
+                        Console.WriteLine($"Hello {message}, I am your father!");
+                    }
+                    );
                 });
             }
         }
