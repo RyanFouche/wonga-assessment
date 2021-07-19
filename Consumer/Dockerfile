@@ -17,4 +17,6 @@ RUN dotnet publish "Consumer.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+COPY "Consumer/appsettings.json" .
+RUN ls
 ENTRYPOINT ["dotnet", "Consumer.dll"]
