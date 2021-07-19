@@ -1,0 +1,22 @@
+docker build -t consumer:v1.0.0 -f ./Consumer/Dockerfile .
+
+
+For viewing:
+docker ps - processes
+docker images
+docker build -t ryanfouche/projects:consumer -f ./Consumer/Dockerfile .
+docker push - docker push ryanfouche/projects:consumer
+
+
+--starts as background task
+docker-compose up -d
+
+
+Project docker lifecycle:
+with code change - rebuild: docker build -t ryanfouche/projects/consumer:v1.0.0 -f ./Consumer/Dockerfile .
+push if you want to send it to production: docker push - docker push ryanfouche/projects/consumer:v1.0.0
+Update docker-compose.yml to the latest version
+
+Run docker-compose up serviceName (see docker-compose.yml)
+--start specific service : docker-compose up -d rabbitmq
+docker-compose up -d rabbitmq

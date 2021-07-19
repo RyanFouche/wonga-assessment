@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Producer": {
+      "commandName": "Project",
+      "commandLineArgs": "guest guest 127.0.0.1 5672 prod"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
