@@ -9,3 +9,4 @@ C:\Development\Wonga\RabbitMQ\obj\Debug\net5.0\RabbitMQ.csproj.CoreCompileInputs
 C:\Development\Wonga\RabbitMQ\obj\Debug\net5.0\RabbitMQ.dll
 C:\Development\Wonga\RabbitMQ\obj\Debug\net5.0\ref\RabbitMQ.dll
 C:\Development\Wonga\RabbitMQ\obj\Debug\net5.0\RabbitMQ.pdb
+C:\Development\Wonga\RabbitMQ\obj\Debug\net5.0\RabbitMQ.csproj.AssemblyReference.cache
