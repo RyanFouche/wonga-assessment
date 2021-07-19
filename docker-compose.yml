@@ -1,7 +1,7 @@
 version: "3.2"
 services:
   consumer:
-    image: ryanfouche/projects/consumer:v1.0.1
+    image: ryanfouche/projects:consumer
   rabbitmq:
     image: rabbitmq:3-management-alpine
     container_name: 'rabbitmq'

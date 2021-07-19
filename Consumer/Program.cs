@@ -1,6 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using RabbitMQ.Client;
 using System;
+using System.IO;
 
 namespace Consumer
 {
@@ -8,12 +10,19 @@ namespace Consumer
     {
         private static void Main(string[] args)
         {
+
+            var configuration = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetParent(AppContext.BaseDirectory).FullName)
+            .AddJsonFile("appsettings.json", false)
+            .Build();
+
             var serviceProvider = new ServiceCollection()
+            .AddSingleton<IConfigurationRoot>(configuration)
             .AddSingleton(s =>
             {
                 return new ConnectionFactory()
                 {
-                    Uri = new Uri($"amqp://{args[0]}:{args[1]}@{args[2]}:{args[3]}/{args[4]}")
+                    Uri = new Uri($"{configuration.GetConnectionString("RabbitUri")}")
                 };
             })
             .AddSingleton<RabbitMQ.Interfaces.IConsumer, RabbitMQ.Consumer>()
