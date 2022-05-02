@@ -19,7 +19,7 @@ namespace Consumer
 
             var serviceProvider = new ServiceCollection()
             .AddSingleton<IConfigurationRoot>(configuration)
-            .AddSingleton(s =>
+            .AddTransient(s =>
             {
                 return new ConnectionFactory()
                 {
@@ -32,7 +32,7 @@ namespace Consumer
             {
                 serviceProvider.GetService<RabbitMQ.Interfaces.IConsumer>().Consume("message", message =>
                 {
-                    Task.Factory.StartNew(() =>
+                    Task.Run(() =>
                     {
                         message = message.Substring(message.LastIndexOf(',') + 1).Trim();
                         Console.WriteLine($"Hello {message}, I am your father!");

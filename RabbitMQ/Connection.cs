@@ -11,7 +11,7 @@ namespace RabbitMQ
     {
         private IConnection _connection;
         private readonly ConnectionFactory _connectionFactory;
-        public static IModel Channel { get; private set; }
+        public IModel Channel { get; private set; }
         public Connection(ConnectionFactory connectionFactory)
         {
             _connectionFactory = connectionFactory;

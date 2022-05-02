@@ -32,6 +32,7 @@ namespace Producer
             {
                 Console.WriteLine("Enter name:");
                 string name = Console.ReadLine();
+
                 if (name != null)
                 {
                     if (name.ToLower() == "exit")

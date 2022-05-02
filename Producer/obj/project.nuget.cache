@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2pkJuPPoyqOAK2AQi1LeuVIiJqVSx0VazBreEw7waAD7TDL4yL1GONWSFMDRKYOdcfp6k1F/AGkUi74UzipsIg==",
+  "dgSpecHash": "veu/dNOH4qI/GxaPmE5kwH0O694xdjV6n2oD5/VDQILrRisEuSMFVN4Fe/jlv/BMp24lLi1Wj/xbaBch1E+ngA==",
   "success": true,
   "projectFilePath": "C:\\Development\\Wonga\\Producer\\Producer.csproj",
   "expectedPackageFiles": [
@@ -70,8 +70,7 @@
     "C:\\Users\\ryanf\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\ryanf\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
     "C:\\Users\\ryanf\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
-    "C:\\Users\\ryanf\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\ryanf\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+    "C:\\Users\\ryanf\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
