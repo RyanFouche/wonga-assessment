@@ -4,7 +4,6 @@ C:\Development\Wonga\Producer\bin\Debug\net5.0\Producer.deps.json
 C:\Development\Wonga\Producer\bin\Debug\net5.0\Producer.runtimeconfig.json
 C:\Development\Wonga\Producer\bin\Debug\net5.0\Producer.runtimeconfig.dev.json
 C:\Development\Wonga\Producer\bin\Debug\net5.0\Producer.dll
-C:\Development\Wonga\Producer\bin\Debug\net5.0\ref\Producer.dll
 C:\Development\Wonga\Producer\bin\Debug\net5.0\Producer.pdb
 C:\Development\Wonga\Producer\bin\Debug\net5.0\DevExpress.Data.v20.2.dll
 C:\Development\Wonga\Producer\bin\Debug\net5.0\DevExpress.Xpo.v20.2.dll
@@ -72,3 +71,4 @@ C:\Development\Wonga\Producer\obj\Debug\net5.0\Producer.dll
 C:\Development\Wonga\Producer\obj\Debug\net5.0\ref\Producer.dll
 C:\Development\Wonga\Producer\obj\Debug\net5.0\Producer.pdb
 C:\Development\Wonga\Producer\obj\Debug\net5.0\Producer.genruntimeconfig.cache
+C:\Development\Wonga\Producer\obj\Debug\net5.0\refint\Producer.dll

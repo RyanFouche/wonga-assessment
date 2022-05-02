@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mGs6GtvqGDMm8LIGuZVN8SYr3ffs7FaUAKxF7VWSTI5NWJD92MfDEdJ48rktN+lR4kyVkA0Zt6xTJ91vAaFEyA==",
+  "dgSpecHash": "t+bZ6YjYf0tVfuJh5gJGd7HtectK/YxR/F/Sufh1tXuz/vEsx3UpZOQnfKOUDDCUbZOCtQ6TzqB/53pXwIU+XA==",
   "success": true,
   "projectFilePath": "C:\\Development\\Wonga\\Consumer\\Consumer.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\ryanf\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.14\\microsoft.visualstudio.azure.containers.tools.targets.1.10.14.nupkg.sha512",
     "C:\\Users\\ryanf\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\ryanf\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\ryanf\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+    "C:\\Users\\ryanf\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
+    "C:\\Users\\ryanf\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
   ],
   "logs": []
 }

@@ -18,7 +18,7 @@ namespace Producer
            .Build();
             var serviceProvider = new ServiceCollection()
             .AddSingleton<IConfigurationRoot>(configuration)
-            .AddSingleton(s =>
+            .AddTransient(s =>
             {
                 return new ConnectionFactory()
                 {

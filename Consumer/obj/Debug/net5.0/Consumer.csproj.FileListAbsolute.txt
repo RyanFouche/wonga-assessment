@@ -4,7 +4,6 @@ C:\Development\Wonga\Consumer\bin\Debug\net5.0\Consumer.deps.json
 C:\Development\Wonga\Consumer\bin\Debug\net5.0\Consumer.runtimeconfig.json
 C:\Development\Wonga\Consumer\bin\Debug\net5.0\Consumer.runtimeconfig.dev.json
 C:\Development\Wonga\Consumer\bin\Debug\net5.0\Consumer.dll
-C:\Development\Wonga\Consumer\bin\Debug\net5.0\ref\Consumer.dll
 C:\Development\Wonga\Consumer\bin\Debug\net5.0\Consumer.pdb
 C:\Development\Wonga\Consumer\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
 C:\Development\Wonga\Consumer\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -29,3 +28,4 @@ C:\Development\Wonga\Consumer\obj\Debug\net5.0\Consumer.dll
 C:\Development\Wonga\Consumer\obj\Debug\net5.0\ref\Consumer.dll
 C:\Development\Wonga\Consumer\obj\Debug\net5.0\Consumer.pdb
 C:\Development\Wonga\Consumer\obj\Debug\net5.0\Consumer.genruntimeconfig.cache
+C:\Development\Wonga\Consumer\obj\Debug\net5.0\refint\Consumer.dll
